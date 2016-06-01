@@ -1,0 +1,319 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>aplicacion final</title>
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/temafinal.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js"></script>
+<script src="phonegap.js" type="text/javascript"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+<body onLoad="MM_preloadImages('imagenes/inforing.jpg')">
+<div data-role="page" id="principal" data-theme="b">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar"  data-back-btn-theme="a">
+ <h1>CARRERAS</h1>
+</div>
+<div>
+<!-- Start WOWSlider.com -->
+<iframe src="visor/visorc.html" style="width:320px;height:240px;max-width:100%;overflow:hidden;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>
+<!-- End WOWSlider.com -->
+
+    
+    <ul data-role="listview" data-theme="c" class="ui-listview ui-group-theme-c">
+    <li class="ui-first-child ui-last-child">
+    <a href="#pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+    <h2>Programacion</h2>
+    </a>
+    </li>
+       <li class="ui-first-child ui-last-child">
+    <a href="#pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+    <h2>Ingeniería en Informática</h2>
+    </a>
+    </li>
+       <li class="ui-first-child ui-last-child">
+    <a href="#pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+    <h2>Ingeniería en Sistemas Computacionales</h2>
+    </a>
+    </li>
+     </ul>
+      <div data-role="main" class="ui-content">
+      
+   <div data-role="collapsible" data-content-theme="false">
+   <h1>Datos Del Programador</h1>
+      <div><center>
+          <p>DESARROLLADO POR:<br>Ulises Alvarez Corio<br>Grado:4° Grupo:H         N°L1
+          </p></center>
+        </div>
+   </div>
+   </div>
+   
+   
+    <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    <div>
+    <img src="res/android/mdpi.png" width="46" height="46">
+    </div>
+    <div>
+       <h4>Carreras Que Me Interesan ACU</h4>
+     
+       </div>
+       </div>
+       </div>
+       </div>
+            
+<div data-role="page" id="pagina1" data-add-back-btn="true" data-theme="a">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+      <h1><strong>Programacion</strong></h1>
+      </div>
+    <div data-role="content" >
+    <div>
+<p><strong>Programación</strong>:</p>
+<center><iframe width="260" height="115" src="https://www.youtube.com/embed/DISe5rDniIA" frameborder="0" allowfullscreen></iframe><center>
+<p><br> 
+<img src="imagenes/ipn.png" width="239" height="92"><br>
+  <em><strong>Perfil de Ingreso</strong></em><br> 
+</p>
+<hr>
+
+Conocimientos<br>
+Manejo básico de plataformas de cómputo.<br>
+Manejo de navegadores web.<br>
+Metodologías de Investigación científica.<br>
+Modelado matemático para resolución de problemas.<br>
+Expresión oral y escrita.<br>
+Comprensión básica de textos en inglés.<br>
+Lógica matemática.<br>
+Lógica deductiva.<br>
+
+<em><strong>Habilidades</strong></em><br> 
+<hr>Organización de Información.<br>
+Resolución de problemas matemáticos.<br>
+Análisis de Información.<br>
+Toma de Decisiones.<br>
+Aplicación de conocimientos en diferentes contextos.<br>
+
+<strong><em>Actitudes</em></strong><br>
+<hr> Asertividad e innovación.<br>
+Disposición para el trabajo en equipo.<br>
+Gusto por los retos profesionales.<br>
+Compromiso para el aprendizaje autónomo.<br>
+Disciplina.<br>
+Ética personal.<br>
+Tolerancia al trabajo bajo presión.<br>
+<em><strong>Requisitos Académicos</strong></em> <br>
+<hr>
+Haber cursado la unidad de aprendizaje de Álgebra.<br>
+Haber cursado las unidades de aprendizaje de Computación Básica I y II.<br>
+Haber cursado las unidades de aprendizaje de Inglés I y II.<br>
+Haber cursado la unidad de aprendizaje de Técnicas de Investigación de campo.<br>
+Ser alumno regular.<br>
+Cumplir con las disposiciones que se establezcan en la normatividad vigente aplicable.<br>
+<em><strong>Perfil del Egresado</strong></em><br>
+<hr>
+Competencias Genéricas<br>
+Se conoce y valora a sí mismo y aborda problemas y retos teniendo en cuenta los objetivos que persigue.<br>
+Es sensible al arte y participa en la apreciación e interpretación de sus expresiones en distintos géneros.<br>
+Elige y practica estilos de vida saludables.<br>
+Se expresa y comunica.<br>
+Piensa y crítica reflexivamente.<br>
+Aprende de forma autónoma.<br>
+Trabaja en forma colaborativa.<br>
+Participa con responsabilidad en la sociedad.<br>
+
+<em><strong>Competencias Profesionales</strong></em><br> <hr>
+
+Desarrollar aplicaciones de software utilizando los conceptos de la Programación Orientada a Objetos.<br>
+Aplicar metodologías para el desarrollo de software con calidad.<br>
+Desarrollar páginas web dinámicas.<br>
+Diseñar bases de datos normalizadas.<br>
+Explotar información de Bases de Datos a través de Lenguajes de Manipulación de Datos.<br>
+Evaluar el impacto de las aplicaciones de software automatizando pruebas en el código desarrollado.<br>
+Analizar y Diseñar soluciones a través de cómputo distribuido.<br>
+Desarrollar algoritmos de seguridad para implementación en los sistemas de información.<br> 
+<hr>
+<br>
+<h3>UNIVERSIDADES</h3>
+<a href="http://www.ipn.mx/mediasuperior/Paginas/Tec-Pro.aspx"><strong><em>Instituto Politécnico Nacional (IPN)</em></strong></a>
+<br>
+<a href="http://www.aiep.cl/detalle-carrera/10-07-15/T%C3%A9cnico_en_Programaci%C3%B3n_y_An%C3%A1lisis_de_Sistemas.aspx"><strong><em>Instituto Profesional AIEP</em></strong></a>
+</div>
+    </div>   
+     <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    <div>
+    <img src="res/android/mdpi.png" width="46" height="46">
+    </div>
+    <div>
+    <h4>Carreras Que Me Interesan ACU</h4>
+       </div>
+       </div>
+      </div>
+         
+         
+         
+         
+         
+         
+         
+               
+<div data-role="page" id="pagina2" data-add-back-btn="true" data-theme="a">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+      <h1>Ingeniería en Informática</h1>
+      </div>
+    <div data-role="content" >
+    <div>
+    
+    <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image9','','imagenes/inforing.jpg',1)"><img src="imagenes/fonipn.jpg" width="250" height="187" id="Image9"></a></p>
+    <p><br>
+      <em><strong>Ingeniería en Informática</strong></em><br>
+    </p>
+    
+    <hr>
+     Formar profesionistas con una sólida preparación científica y tecnológica de carácter interdisciplinario que les permita desarrollar habilidades para el diseño, construcción, transferencia y adaptación de tecnologías de información, cuya aplicación en el sector productivo coadyuve en el incremento de la calidad, productividad, factibilidad y sustentabilidad de sus productos y servicios.​<br>
+<hr>
+ <em><strong>Perfil de Aspirante</strong></em><br>
+Para lograr una formación de recursos humanos de excelencia en la Carrera de Ingeniería en Informática, es indispensable que los aspirantes a cursar esta carrera reúnan un mínimo de conocimientos, habilidades, valores y actitudes que les garanticen su óptimo desempeño profesional durante sus estudios y los conduzcan a una exitosa integración en el campo profesional.<br>
+<em><strong>Perfil del Alumno de Nuevo Ingreso</strong></em><br>
+De lo anterior se desprende que, un aspirante con vocación y aptitud para estudiar la Carrera de Ingeniería en Informática, deberá cumplir las siguientes características:<br>
+Conocimientos y Habilidades​<br>
+Correspondientes al área de Ingeniería y Ciencias Físico-Matemáticas en el nivel medio superior.<br>
+Conocimientos generales del campo de la computación en lo relativo a manejo y uso de la computadora, paquetería básica, preferentemente sobre principios de programación.<br>
+Capacidad de abstracción y análisis que le permita desarrollar sistemas de información de acuerdo con situaciones específicas.<br>
+Hábito de autodidactismo, que le permita tener mejores posibilidades de éxito al estudiar.
+Actitudes y Valores<br>
+Creatividad, que le facilite la innovación para el diseño y creación de nuevos sistemas de información computarizados.<br>
+Disposición para el estudio, lectura e investigación, que le permitan lograr éxito en sus estudios.<br>
+Poseer sentido de responsabilidad y tenacidad como persona y estudiante, que le asegure la consolidación de sus proyectos.<br>
+Identificarse con la filosofía del I.P.N., y con su entorno que le garanticen la formación de un profesionista comprometido con la sociedad y su país.<br>
+
+
+<hr>
+
+​<em><strong> Requisitos Académicos</strong></em><br>
+Cumplir en tiempo y forma con cada una de las etapas del Proceso de Admisión señaladas en la convocatoria de ingreso al Nivel Superior Sistema Escolarizado del IPN. Tales como:<br>
+Certificado oficial de estudios de nivel medio superior.<br>
+Certificado de estudios de secundaria.<br>
+Clave Única de Registro de Población (CURP).<br>
+Acta de nacimiento.<br>
+Aprobar el examen de ingreso.<br>
+6 fotografías tamaño infantil.
+​<br>
+<hr>
+<em><strong>Perfil del Egresado</strong></em><strong></strong><br>
+El estudiante que concluyan el programa académico 2009 dirá, que como Ingeniero en Informática, es un profesionista interdisciplinario, que laborar en cualquier tipo de organización pública o privada, donde implementa y  administra sistemas de software de calidad mundial; proporciona soluciones de transmisión de voz y datos; aplica las metodologías de normalización y calidad en el proceso de desarrollo y administración de software y hardware garantizando su seguridad; y propone procesos planificados de innovación en el campo de la Ingeniería Informática a través de la investigación y desarrollo de soluciones de software y hardware, acordes a las necesidades actuales.<br>
+
+
+<hr>
+<em><strong>Campo Ocupacional</strong></em><br>
+El egresado de este programa académico, podrá laborar en cualquier ámbito que requiera la construcción de soluciones de ingeniería informática que integren hardware y software, gestión de proyectos y fundamentalmente el desarrollo de software de clase mundial, seguro y con calidad, ya sea en el sector público ó privado.<br>
+Entre las características genéricas del campo ocupacional podemos encontrar empresas que cuenten con un área propia, o de outsourcing, que se dedique a:<br>
+Desarrollo de sistemas de software.<br>
+Soporte de sistemas en producción.<br>
+Implementación y soporte de redes y comunicaciones.<br>
+De éstas tres áreas se debe mencionar como puntos característicos del ámbito laboral a:<br>
+La construcción de soluciones de ingeniería informática.<br>
+La integración software-hardware.<br>
+La gestión de proyectos.<br>
+El desarrollo de software de calidad y de clase mundial.<br>
+Las empresas públicas y privadas.<br>
+<hr>
+<br>
+<h3>UNIVERSIDADES</h3>
+<a href="http://www.ipn.mx/mediasuperior/Paginas/Tec-Pro.aspx"><strong><em>Instituto Politécnico Nacional (IPN)</em></strong></a><br>
+<a href="http://www.upsin.edu.mx/programas_academicos/carrera/informatica"><strong><em>UNIVERSIDAD POLITÉCNICA DE SINALOA</em></strong></a>
+ </div>
+    </div>   
+     <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    <div>
+    <img src="res/android/mdpi.png" width="46" height="46">
+    </div>
+    <div>
+    <h4>Carreras Que Me Interesan ACU</h4>
+       </div>
+       </div>
+      </div>
+              
+              
+              
+              
+              
+               
+<div data-role="page" id="pagina3" data-add-back-btn="true" data-theme="a">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+      <h1>Ingeniería en Sistemas Computacionales</h1>
+      </div>
+    <div data-role="content">
+    <div>
+    <center><img src="imagenes/itsaing.jpg" width="350" height="150"><br></center>
+      <ul>
+     
+       
+          
+          <em><strong>Perfil Profesional:</strong></em><br>
+          <hr>
+          El Ingeniero en Sistemas Computacionales es capaz de:<br>
+          
+          <li>Administrar, mantener y salvaguardar los datos de una empresa u organización mediante el uso de herramientas computacionales.<br></li>
+          <li>Integrar  diversas herramientas de cómputo para optimizar la toma decisiones y lograr con ello cumplir con los objetivos de la empresa.<br></li>
+         <li> Analizar, desarrollar y programar modelos matemáticos, estadísticos y de simulación.<br></li>
+          <li>Diseñar redes y sistemas de cómputo que faciliten la adecuada distribución, acceso y manejo de información electrónica.<br></li>
+         <li> Automatizar procesos mediante recursos tecnológicos de hardware y software.<br></li>
+        <li>  Formar una empresa de desarrollo de software, de tal manera que le permita contribuir a la generación de empleo en la región y cuidando de manera adecuada los recursos.<br></li>
+          
+          
+          <hr>
+          <br>
+          
+          <em><strong>Objetivo de la Carrera</strong></em>:<br>
+          <br>
+          Formar profesionales con capacidad de razonamiento, creativos y con espíritu de líder, competentes para proponer soluciones y estrategias en el desarrollo de software, redes de cómputo y telecomunicaciones; que le permitirá participar en programas de desarrollo tecnológico con impacto en la región.<br>
+       
+      </ul>
+      <hr>
+      <br>
+      <h3>UNIVERSIDADES</h3>
+<a href="http://www.itsatlixco.edu.mx/tec/sistemas.php#"> <em><strong>Instituto Tecnológico Superior de Atlixco</strong></em></a>  <br>
+  <img src="imagenes/itsa.png" width="300" height="184">
+<br><a href="http://www.itesm.mx/wps/wcm/connect/itesm/tecnologico+de+monterrey/carreras+profesionales/areas+de+estudio/tecnologias+de+informacion+y+electronica/isc"><strong><em>Instituto Tecnológico y de Estudios Superiores de Monterrey</em></strong></a><br>
+<img src="imagenes/monte.jpg" width="224" height="94">
+  
+    </div>
+    </div>   
+     <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    <div>
+    <img src="res/android/mdpi.png" width="46" height="46">
+    </div>
+    <div>
+    <h4>Carreras Que Me Interesan ACU</h4>
+       </div>
+       </div>
+      </div>
+    
+ </body>
+</html>
